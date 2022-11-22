@@ -1,0 +1,35 @@
+{
+  "name": "frstcmfrstsvd",
+  "version": "1.0.7",
+  "description": "Asynchronous iterate an array of promises: First fulfilled is first processed",
+  "author": "Casiano Rodriguez-Leon @crguezl",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_NO_WARNINGS=1 NODE_OPTIONS=--experimental-vm-modules jest",
+    "fulfilled": "node examples/hello-frstcmfrstsvd.mjs",
+    "reject": "node examples/reject-frstcmfrstsvd.mjs",
+    "performance": "node examples/performance-reject-frstcmfrstsvd.mjs",
+    "push": "git ci -am frstcmfrsrtsvd && git push"
+  },
+  "homepage": "https://github.com/crguezl/frstcmfrstsvd/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crguezl/frstcmfrstsvd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crguezl/frstcmfrstsvd/issues"
+  },
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "await",
+    "async",
+    "iterator",
+    "promise-allsettled",
+    "for-await-of",
+    "promise"
+  ],
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
